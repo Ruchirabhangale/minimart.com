@@ -1,0 +1,391 @@
+/* StartNavbar */
+
+.navbar{
+    background-color: rgb(161, 86, 231);
+    padding: 5px 0px;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-item:hover{
+    /*background-color:rgb(103, 7, 167);*/
+}
+
+.nav-item:hover .nav-link{
+    color: rgb(186, 149, 230);
+}
+.navbar-brand{
+    font-size:30px ;
+}
+.navbar-brand i{
+    color: rgb(245, 239, 239);
+    font-weight: 700 !important;
+    font-size: 30px;
+}
+
+/* endNavbar */
+/* start carousal */
+.bg1{
+    background: linear-gradient(rgb(30, 0, 42,0.5),rgb(41, 0, 51,0.5)),url("images/mart/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    position: relative;
+}
+.bg2{
+    background: linear-gradient(rgb(30, 0, 42,0.5),rgb(41, 0, 51,0.5)),url("images/mart/img2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    position: relative;
+}
+.bg3{
+    background: linear-gradient(rgb(30, 0, 42,0.5),rgb(41, 0, 51,0.5)),url("images/mart/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    position: relative;
+}
+.bg4{
+    background: linear-gradient(rgb(30, 0, 42,0.5),rgb(41, 0, 51,0.5)),url("images/mart/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh);
+    position: relative;
+}
+.Mycaption{
+    color: rgb(244, 239, 241);
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+
+}
+@media only screen and (max-width:720px) {
+    .Mycaption{
+        width: 80%;
+    }
+}
+.Mycaption h1{
+    text-align: center;
+    color: rgb(243, 240, 240);
+    margin-top: 0cm ;
+    
+}
+.Mycaption p{
+    font-weight: 300;
+    text-align: center;
+
+}
+.Readmore_slider{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 10px 20px;
+    margin: 20px;
+    display: inline-block;
+
+}
+.Readmore_slider:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+/* end carousal */
+/*-- start the about*/
+section {
+    padding: 50px 0px;
+
+}
+.mainheading {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+.mainheading::before {
+    content: "";
+    width: 100px;
+    background-color: rgb(90, 88, 203);
+    height: 4px;
+    margin: 14px;
+    display: inline-block;
+}
+.mainheading::after {
+    content: "";
+    width: 100px;
+    background-color: rgb(90, 88, 203);
+    height: 4px;
+    margin: 14px;
+    display: inline-block;
+}
+.subheading {
+    text-align: center;
+    display: block;
+}
+.about p,li{
+    line-height: 30px;
+    text-align: justify;
+}
+.about ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.about i {
+    padding-right: 10px;
+    color: blueviolet;
+    font-size: 20px;
+}
+.aboutlearnmore {
+    color: blueviolet;
+    padding:10px 20px;
+    text-decoration: none;
+    border: solid #fff;
+    display: inline-block;
+    margin-top: 20px;   
+}
+.aboutlearnmore:hover {
+    color: #fff;
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+.img-fluid {
+    height: 370px;
+    width: 500px;
+}
+.Mycard {
+    padding: 20px;
+    box-shadow: 0px 0px 30px #5a5959 ;
+    text-align: center;
+    margin-top: 40px;
+}
+.Mycard i {
+    font-size: 30px;
+    
+}
+.counter {
+    font-size: 30px;
+    font-weight: 900;
+}
+.Mycard a {
+    color: blueviolet;
+    text-decoration: none;
+}
+.Mycard a:hover{
+    letter-spacing:1px ;
+    transform: 0.5s;
+}
+
+/*-- end the about*/
+
+/*-- start help*/
+.help {
+    background-color: rgb(166, 79, 247);
+    color: black;
+    text-align: center;
+}
+.help p {
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.help-phone {
+    font-size: 20px;
+}
+.help-phone i {
+    color: brown;
+}
+/*-- end the help*/
+
+/* start services*/
+.service-card {
+    padding: 20px;
+    border: 2px solid #514f4f;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px #5a5959 ;
+    border-width: 1px;
+}
+.service-card:hover {
+    letter-spacing: 1px;
+}
+.service-card p {
+    font-size: 15px;
+    font-weight: normal;
+}
+.service-card i {
+    color: blueviolet;
+    font-size: 25px;
+}
+.service-card a {
+    text-decoration: dotted;
+    color: blueviolet;
+    font-weight:lighter;
+    font-size: 15px;
+
+}
+.service-card a:hover {
+    color: blueviolet;
+    letter-spacing: 1px;
+}
+/* end services*/
+
+/* Start team*/
+.team {
+    background-color: rgb(223, 203, 242);
+}
+.teamcard {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.teamcard:hover {
+    box-shadow: 0px 0px 10px #939292;
+}
+.teamcard img {
+    border-radius: 5px;
+}
+.teamcard h3 {
+    margin-top: 10px;
+
+}
+
+.teamcard i {
+    padding: 5px;
+    font-size: 20px;
+
+
+}
+.teamcard i:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+    /* end team*/
+
+    /* Start FAQs*/
+.accordion-button {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid gray
+
+}
+.accordion-item {
+    margin-top: 20px;
+    
+}
+.faq p{
+    line-height: 30px;
+    text-align: justify;
+
+}
+    /* end FAQs */
+    /* Start Gallery */
+.gallery {
+    background-color: rgb(223, 203, 242);
+}
+.tab-content {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: rgb(4, 4, 4);
+    color:white;
+    
+}
+.nav-tabs .nav-link {
+    color: #514f4f;
+}
+.nav-tabs img {
+    margin-top: 15px;
+}
+    /*end gallery */
+
+
+    /* Start of contact */
+    .contact i {
+        font-size: 30px;
+        color: rgb(171, 104, 234);
+        
+    }
+    .formbtn {
+        background-color: rgb(10, 1, 20);
+        color: rgb(176, 135, 239);
+        padding: 10px 30px;
+        border: 1px solid rgb(3, 0, 7);
+        margin-top: 20px;
+    }
+    .formbtn:hover{
+        border: 1px solid rgb(186, 149, 230);
+        background-color: #9d08f3;
+        color: rgb(189, 86, 226);
+        transition: 0.5s;
+
+    }
+
+    /* End of contact */
+/* start footer */
+.footer {
+    background-color: #07000b;
+    color: #f2f2f4;
+}
+.contactdetails {
+    background-color: #2c292f;
+}
+.contactdetails i {
+    color: violet;
+}
+.quicklinks ul{
+    list-style-type: none;
+    padding: 0px;
+
+}
+.quicklinks li{
+    line-height: 40px;
+}
+.quicklinks i{
+    color: violet;
+    font-size: 15px;
+    padding: 10px;
+}
+.footerservices ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.footerservices li{
+    line-height: 40px;
+}
+.footerservices i{
+    color: violet;
+    font-size: 15px;
+    padding: 10px;
+}
+.footersocial ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.footersocial li{
+    line-height: 40px;
+}
+.footersocial i{
+    color: violet;
+    font-size: 18px;
+    padding: 10px;
+}
+.copyright {
+    background-color:#9d08f3 ;
+}
+/* end footer*/
